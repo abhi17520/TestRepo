@@ -3,6 +3,7 @@
 using namespace std;
 
 // Complete the solve function below.
+//Solve function to calculate total_cost.
 void solve(double meal_cost, int tip_percent, int tax_percent) {
     
     double tip = tip = meal_cost * tip_percent / 100;
@@ -12,6 +13,7 @@ void solve(double meal_cost, int tip_percent, int tax_percent) {
     cout<<total_cost;
 }
 
+//main function
 int main()
 {
     double meal_cost;
